@@ -1,0 +1,214 @@
+<?php
+
+/**
+ * Copyright 2021, 2024 5 Mode
+ *
+ * This file is part of www-conf-viewer.
+ * 
+ * www-conf-viewer is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * www-conf-viewer is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.  
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with www-conf-viewer. If not, see <https://www.gnu.org/licenses/>.
+ *
+ * config.inc
+ * 
+ * www-conf-viewer configuration settings.
+ *
+ * @author Daniele Bonini <my25mb@aol.com>
+ * @copyrights (c) 2021, 2024, 5 Mode     
+ */
+
+define('DEBUG', true);
+
+define('MAX_SECURITY', true);
+
+define('APP_NAME', "www-conf-viewer");
+define('APP_TITLE', "www-conf-viewer: everyone its web config.");
+
+// password: jungle75
+// salt: 18001800
+define('APP_HASH', "");
+define('APP_SALT', "");
+
+define('APP_HOST', "conf-viewer.yoursite.com");
+define('APP_PATH', "/var/www/www-conf-viewer");
+define('APP_NGINX_CONF_PATH' , "/etc/nginx/nginx.conf"); 
+define('APP_NGINX_SERVER_CONF_PATH', "/etc/nginx/conf.d/yoursite.com.conf");
+define('APP_PHPFPM_CONF_PATH' , "/etc/php-fpm.conf"); 
+define('APP_EXAMPLE_PATH' , "/var/www/www-conf-viewer/CONFVW_examples"); 
+define('APP_LICENSE', <<<LICENSETEXT
+Copyright (c) 2016, 2024, 5 Mode
+All rights reserved.
+
+This file is part of www-conf-viewer.
+
+www-conf-viewer is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+www-conf-viewer is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.  
+
+You should have received a copy of the GNU General Public License
+along with www-conf-viewer. If not, see <https://www.gnu.org/licenses/>.
+
+https://opensource.org/licenses/GPL-3.0
+LICENSETEXT
+);
+// Default Locale, in two letters format
+define('APP_DEF_LANG', "en-US");
+
+
+$CONFIG = [
+
+   'DEBUG' => true,
+ 
+   'MAX_SECURITY' => true, 
+    
+   'APP' => [
+      'NAME' => "www-conf-viewer",
+      'TITLE' => "www-conf-viewer: everyone its web config.",
+      // password: jungle75
+      // salt: 18001800
+      'HASH' => "",
+      'SALT' => "",        
+      'HOST' => "conf-viewer.yoursite.com", 
+      'PATH' => "/var/www/www-conf-viewer",
+      'NGINX_CONF_PATH' => "/etc/nginx/nginx.conf",
+      'NGINX_SERVER_CONF_PATH' => "/etc/nginx/conf.d/yoursite.com.conf",       
+      'PHPFPM_CONF_PATH' => "/etc/php-fpm.conf", 
+      'EXAMPLE_PATH' => "/var/www/www-conf-viewer/CONFVW_examples", 
+      'LICENSE' => <<<LICENSETEXT
+Copyright (c) 2016, 2024, 5 Mode
+All rights reserved.
+
+This file is part of www-conf-viewer.
+
+www-conf-viewer is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+www-conf-viewer is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.  
+
+You should have received a copy of the GNU General Public License
+along with www-conf-viewer. If not, see <https://www.gnu.org/licenses/>.
+
+https://opensource.org/licenses/GPL-3.0 
+LICENSETEXT
+             ,
+      'DEF_LANG' => "en-US"
+      ]
+    
+    ];  
+
+$LOCALE = [
+
+  'it-IT' => [
+    
+    '/home.php' => [        
+      'ping' => "pong",
+      'How-to: Manage your avatars in Avatar Free' => "How-to: Gestire i tuoi avatar in Avatar Free",  
+      'CV' => "CV",  
+      'Sample' => "Esempio",   
+      'My Network' => "Network",
+      'Hello from 5 Mode' => "Ciao da 5 Mode",  
+      'This is just an example of blog entry' => "Questo e' giusto un esempio di post nel blog",  
+      'Go' => "Vai",  
+      'Hash Me' => "Codificami",  
+      'Some rights reserved' => "Alcuni diritti riservati"  
+         ],
+     
+    '/js/home-js.php' => [
+      'ping' => "pong",
+      'Please set your hash in the config file with this value' => "Puoi impostare il tuo hash nel file config con questo valore"   
+         ]  
+      
+      ],
+
+  'zh-CN' => [
+    
+    '/home.php' => [        
+      'ping' => "pong",
+      'How-to: Manage your avatars in Avatar Free' => "HOW-TO: 免费管理您的化身",    
+      'CV' => "简历",  
+      'Sample' => "样本",  
+      'My Network' => "我的网络",  
+      'Hello from 5 Mode' => "您好5 MODE",  
+      'This is just an example of blog entry' => "这只是博客条目的一个例子",    
+      'Go' => "去",  
+      'Hash Me' => "哈希我",  
+      'Some rights reserved' => "保留一些权利"  
+         ],
+     
+    '/js/home-js.php' => [
+      'ping' => "pong",
+      'Please set your hash in the config file with this value' => "请在配置文件中设置您的哈希"     
+         ]  
+      
+      ]
+    
+  ];
+
+
+$NGINX_DIRECTIVES = [
+    'access_log' => "Sets the path, format, and configuration for a buffered log",
+    'accept_mutex' => "When enabled worker processes will accept new connections by turn.",
+    'aio' => "Enables or disables the use of asynchronous file I/O",
+    'client_body_timeout' => "Defines a timeout for reading client request body.",
+    'client_header_timeout' => "Defines a timeout for reading client request header.",
+    'default_type' => "Defines the default MIME type of a response.",
+    'directio' => "Enables the use of the O_DIRECT flag (FreeBSD, Linux), the F_NOCACHE flag (macOS), or the directio() function (Solaris), when reading files that are larger than or equal to the specified size.",
+    'error_log' => "Configures logging",
+    'events' => "Defines the configuration file context for the directives that affect connection processing.",
+    'gzip' => "Enables or disables compression of responses.",
+    'gzip_comp_level' => "Sets a gzip compression level of a response (1-9).",
+    'gzip_min_length' => "Sets the minimum length of a response that will be compressed.",
+    'gzip_types' => "Enables compression of responses for the specified MIME types",
+    'include' => "Includes another file, or files matching the specified mask",
+    'index' => "Defines files that will be used as an index.",
+    'keepalive_disable' => "Disables keep-alive connections with misbehaving browsers",
+    'keepalive_requests' => "Sets the maximum number of requests that can be served through one keep-alive connection. ",
+    'keepalive_timeout' => "Sets a timeout during which a keep-alive client connection will stay open on the server side. A zero value disables keep-alive client connections.",
+    'limit_conn' => "Sets the shared memory zone and the maximum allowed number of connections for a given key value.",
+    'limit_conn_zone' => "Sets parameters for a shared memory zone that will keep states for various keys",
+    'log_format' => "Specifies the log format.",
+    'open_file_cache' => "Configures a cache",
+    'open_file_cache_errors' => "Enables or disables caching of file lookup errors",
+    'open_file_cache_min_uses' => "Sets the minimum number of file accesses during the period configured",
+    'open_file_cache_valid' => "Sets a time after which open_file_cache elements should be validated.",
+    'output_buffers' => "Sets the number and size of the buffers used for reading a response from a disk.",
+    'pid' => "Defines a file that will store the process ID of the main process.",
+    'proxy_cache_methods' => "Cached requested methods",
+    'proxy_cache_path' => "Sets the path and other parameters of a cache. Cache data are stored in files",
+    'proxy_cache_valid' => "Sets caching time for different response codes",
+    'proxy_temp_path' => "Defines a directory for storing temporary files with data received from proxied servers.",
+    'reset_timedout_connection' => "Enables or disables resetting timed out connections and connections closed.",
+    'sendfile' => "Enables or disables the use of sendfile().",
+    'sendfile_max_chunk' => "Limits the amount of data that can be transferred in a single sendfile() call. Without the limit, one fast connection may seize the worker process entirely.",
+    'send_timeout' => "Send timeout set only between two successive write operations, not for the transmission of the whole response.",
+    'server_tokens' => "Enables or disables emitting nginx version on error pages and in the 'server' response header field.",
+    'tcp_nodelay' => "Enables or disables the use of the TCP_NODELAY option",
+    'tcp_nopush' => "Enables or disables the use of the TCP_NOPUSH socket option on FreeBSD or the TCP_CORK socket option on Linux.",
+    'types_hash_max_size' => "Sets the maximum size of the types hash tables.",
+    'client_max_body_size' => "Sets the maximum allowed size of the client request body.",
+    'use' => "Specifies the connection processing method to use.",
+    'user' => "Defines user and group credentials used by worker processes.",  
+    'worker_connections' => "Defines the maximum number of simultaneous connections that can be opened by a worker process.",
+    'worker_processes' => "Defines the number of worker processes. When one is in doubt, setting it to the number of available CPU cores would be a good start (the value “auto” will try to autodetect it).",
+    'worker_rlimit_nofile' => "Defines the limit of the maximum number of open files for worker process. "
+  ];

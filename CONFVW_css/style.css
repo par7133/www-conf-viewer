@@ -1,0 +1,179 @@
+/*
+ * Copyright (c) 2016, 2024, 5 Mode
+ * All rights reserved.
+ * 
+ * This file is part of www-conf-viewer.
+ * 
+ * www-conf-viewer is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * www-conf-viewer is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.  
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with www-conf-viewer. If not, see <https://www.gnu.org/licenses/>.
+ * config.inc
+ * 
+ * www-conf-viewer style sheet.
+ *
+ * @author Daniele Bonini <my25mb@aol.com>
+ * @copyrights (c) 2021, 2024, 5 Mode 
+ */
+
+body {
+}
+.aaa {
+  font-weight:900;
+  color:#000000;
+}
+#directive {
+  text-decoration: underline dotted greenyellow;
+}
+#directive-desc {
+  font-size: 8px;
+  text-decoration: underline dotted greenyellow;
+  padding-left:0px;
+}
+#directive-desc2 {
+  font-size: 8px;
+  text-decoration: underline dotted greenyellow;
+  padding-left:0px;
+}
+#footerCont {
+  position: fixed; 
+  top: 2000px; 
+  left:-10px;
+  width: 102%; 
+  border: 1px solid #C2DBF2; 
+  padding: 7px; 
+  background: white; 
+  opacity: 0.3;
+  color:white; 
+  font-family: Arial,Sans,Vardana;
+  font-size: 12px; 
+  text-align: center; 
+  z-index: 99998;
+}
+#footer {
+  position: fixed;
+  float: right;
+  top: 2000px; 
+  left:-10px;
+  width: 100%; 
+  border: 0px solid #C2DBF2; 
+  padding: 7px; 
+  opacity: 1.0;
+  color:black; 
+  font-family: Arial,Sans,Vardana;
+  font-size: 12px; 
+  font-weight: 400;
+  text-align: right; 
+  z-index: 99999;
+}
+table {
+  width:100%;
+  max-width:950px;
+  background:#e9eef8; 
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  clear:both;
+  margin:auto;
+}
+#hashMe {
+  position:relative; 
+  left:-2px; 
+  top:+5px; 
+  font-size:18px; 
+  font-weight:900; 
+  color:#000000;
+}
+#Password {
+  font-size:18px;  
+  background:transparent; 
+  width: 60%; 
+  border-radius:3px; 
+  font-weight:900;
+}
+#passworddisplay {
+  float:left;
+  position:fixed;
+  top:680px;
+  left:50px;
+  width:255px;
+  height:120px;
+  background:darkgray;
+  text-align:left;
+  white-space:nowrap; 
+  font-family:Arial,Sans,Verdana; 
+  color:#000000; 
+  font-weight:900;
+  z-index:99999;
+}
+#Salt {
+  position:relative; 
+  top:+5px; 
+  font-size:18px; 
+  background:transparent;
+  width: 90%; 
+  border-radius:3px; 
+  font-weight:900;
+}
+.td-caption {
+  width: 350px;
+  background-color:#01963a;
+  color: #FFFFFF;
+  padding:8px;
+  padding-top:4px;
+  padding-bottom:4px;
+}
+.td-caption:hover {
+  background-color:#39b455;
+}
+.td-caption2 {
+  width: 350px;
+  background-color: #67b168;
+  color: #FFFFFF;
+  padding:8px;
+  padding-left:32px;
+  padding-top:4px;
+  padding-bottom:4px;
+}
+.td-caption2:hover {
+  background-color: #87d287;
+}  
+.td-tab {
+  width: 25px;
+  background-color: #67b168;
+  padding:8px;
+  padding-top:4px;
+  padding-bottom:4px;
+}
+.td-full-opts {
+  width: 600px;
+  background-color: #ebebeb;
+  padding:8px;
+  padding-top:4px;
+  padding-bottom:4px;
+  border-top: 1px dotted gray; 
+}
+.td-server-spec {
+  width: 100%;
+  background-color: #01963a;
+  color:#FFFFFF;
+  padding:8px;
+  padding-top:4px;
+  padding-bottom:4px;
+  border-top: 1px dotted gray;   
+}
+.td-server-spec-php {
+  width: 100%;
+  background-color: #7a86b8;
+  color:#FFFFFF;
+  padding:8px;
+  padding-top:4px;
+  padding-bottom:4px;
+  border-top: 1px dotted gray;   
+}
