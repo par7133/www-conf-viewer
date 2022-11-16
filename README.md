@@ -14,7 +14,7 @@ You have to follow some simple instructions for an optimal first setup:<br>
 <ol>
 <li>Keep MAX_SECURITY on and adopt SSL.</li>  
 <li>Assign all the path to your configuration files in the config file.</li>
-<li>Fill free to add to $NGINX_DIRECTIVES and share with us.</li>
+<li>Fill free to add to $NGINX_DIRECTIVES and share with all of us.</li>
 </ol>
 	   
 <br>	
