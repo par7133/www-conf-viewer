@@ -1,14 +1,14 @@
 # www-conf-viewer
 
-Everyone its web config, a viewer (nginx, phpfpm)
+Everyone its web config, a viewer (nginx, phpfpm)..
 
-Hello and welcome to www-conf-viewer!<br><br>
+Hello and welcome to www-conf-viewer!<br>
 	   
-www-conf-viewer is a light and simple software on premise to check your website config.<br><br>
+www-conf-viewer is a light and simple software on premise to check your website config.<br>
 	   
-www-conf-viewer is released under GPLv3 license, it is supplied AS-IS and we do not take any responsibility for its misusage.<br><br>
+www-conf-viewer is released under GPLv3 license, it is supplied AS-IS and we do not take any responsibility for its misusage.<br>
 	   
-First step, use the left side panel password and salt fields to create the hash to insert in the config file. Remember to manually set there also the salt value.<br><br>
+First step, use the left side panel password and salt fields to create the hash to insert in the config file. Remember to manually set there also the salt value.<br>
 	   
 You have to follow some simple instructions for an optimal first setup:<br>
 <ol>
