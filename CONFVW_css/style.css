@@ -30,6 +30,10 @@ body {
   font-weight:900;
   color:#000000;
 }
+.bbb {
+  color: #7bca2e;
+  text-decoration: underline;
+}
 #directive {
   text-decoration: underline dotted greenyellow;
 }
@@ -89,6 +93,30 @@ table {
   font-size:18px; 
   font-weight:900; 
   color:#000000;
+}
+#originsDisplay {
+  float:left;
+  position:fixed;
+  top:680px;
+  left:50px;
+  width:275px;
+  height:120px;
+  font-family: Monospace, Verdana, Serif;
+  font-size: 14px;
+  background-color: #020401;
+  border: 3px solid lightgray;
+  text-align:left;
+  color: #FFFFFF;
+  white-space:nowrap; 
+  font-weight:900;
+  padding:10px;
+  padding-top:4px;
+  z-index:99999;
+  display:none;
+}
+.originLabel {
+  color: #7bca2e;
+  font-weight:900;
 }
 #Password {
   font-size:18px;  
