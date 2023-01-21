@@ -132,11 +132,25 @@ function setFooterPos() {
   }
 }
 
+function setOriginsPos() {
+  h=parseInt(window.innerHeight);
+  w=parseInt(window.innerWidth);
+  mytop = parseInt(window.innerHeight - ($("#originsDisplay").height() + 60));
+  $("#originsDisplay").css("top", mytop+"px");
+  setTimeout("hideOrigins()",15000);
+}
+
+function hideOrigins() {
+  $("#originsDisplay").css("visibility","hidden");
+}  
+
 window.addEventListener("load", function() {
 
   setTimeout("setContentPos()", 500);
   setTimeout("setFooterPos()", 1000);
-
+  setTimeout("setOriginsPos()", 500);
+  $("#originsDisplay").show();
+ 
   setTimeout("_startApp()", 10000);
 
 }, true);
