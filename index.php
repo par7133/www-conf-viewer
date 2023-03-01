@@ -42,7 +42,8 @@
  require FUNCTIONS_PATH . DIRECTORY_SEPARATOR . "func.string.inc";
  require FUNCTIONS_PATH . DIRECTORY_SEPARATOR . "func.various.inc";
 
- $password = filter_input(INPUT_POST, "Password");
+ $password = filter_input(INPUT_POST, "Password")??"";
+ $password = strip_tags($password);
  if ($password !== PHP_STR) {	
    $hash = hash("sha256", $password . APP_SALT, false);
 
