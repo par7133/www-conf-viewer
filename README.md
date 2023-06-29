@@ -19,5 +19,5 @@ You have to follow some simple instructions for an optimal first setup:<br>
 	   
 <br>	
      
-Hope you can enjoy it and let us know about any feedback: <a href="mailto:my25mb@aol.com">my25mb@aol.com</a>
+Hope you can enjoy it and let us know about any feedback: <a href="mailto:posta@elettronica.lol">posta@elettronica.lol</a>
 	   
