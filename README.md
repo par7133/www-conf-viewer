@@ -18,6 +18,8 @@ You have to follow some simple instructions for an optimal first setup:<br>
 </ol>
 	   
 <br>	
+
+![www-conf-viewer in action #1](/CONFVW_res/Screenshot1.jpg)<br>
      
-Hope you can enjoy it and let us know about any feedback: <a href="mailto:posta@elettronica.lol">posta@elettronica.lol</a>
+Feedback: <a href="mailto:posta@elettronica.lol">posta@elettronica.lol</a>
 	   
