@@ -149,7 +149,7 @@ window.addEventListener("load", function() {
   setTimeout("setContentPos()", 500);
   setTimeout("setFooterPos()", 1000);
   setTimeout("setOriginsPos()", 500);
-  $("#originsDisplay").show();
+  //$("#originsDisplay").show();
  
   setTimeout("_startApp()", 10000);
 
