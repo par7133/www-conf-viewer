@@ -21,5 +21,5 @@ You have to follow some simple instructions for an optimal first setup:<br>
 
 ![www-conf-viewer in action #1](/CONFVW_res/Screenshot1.jpg)<br>
      
-Feedback: <a href="mailto:posta@elettronica.lol">posta@elettronica.lol</a>
+Feedback: <a href="mailto:code@gaox.io">code@gaox.io</a>
 	   
