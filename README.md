@@ -17,11 +17,11 @@ You have to follow some simple instructions for an optimal first setup:<br>
 <li>Fill free to add to $NGINX_DIRECTIVES and share with all of us.</li>
 </ol>
 	   
-<br>	
-
 For any need of software additions, plugins and improvements please write to <a href="mailto:info@5mode.com">info@5mode.com</a>  
 
 To help please donate by clicking <a href="https://gaox.io/l/dona1">https://gaox.io/l/dona1</a> and filling the form.  
+
+<br>
 
 ![www-conf-viewer in action #1](/CONFVW_res/Screenshot1.jpg)<br>
      
