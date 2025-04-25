@@ -19,6 +19,10 @@ You have to follow some simple instructions for an optimal first setup:<br>
 	   
 <br>	
 
+For any need of software additions, plugins and improvements please write to <a href="mailto:info@5mode.com">info@5mode.com</a>  
+
+To help please donate by clicking <a href="https://gaox.io/l/dona1">https://gaox.io/l/dona1</a> and filling the form.  
+
 ![www-conf-viewer in action #1](/CONFVW_res/Screenshot1.jpg)<br>
      
 Feedback: <a href="mailto:code@gaox.io">code@gaox.io</a>
