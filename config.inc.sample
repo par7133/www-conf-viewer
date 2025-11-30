@@ -38,7 +38,7 @@ define('APP_TITLE', "www-conf-viewer: everyone its web config.");
 define('APP_HASH', "");
 define('APP_SALT', "");
 
-define('APP_HOST', "conf-viewer.yoursite.com");
+define('APP_HOST', "yoursitename.xyz");
 define('APP_PATH', "/var/www/www-conf-viewer");
 define('APP_NGINX_CONF_PATH' , "/etc/nginx/nginx.conf"); 
 define('APP_NGINX_SERVER_CONF_PATH', "/etc/nginx/conf.d/yoursite.com.conf");
@@ -83,7 +83,7 @@ $CONFIG = [
       // salt: 
       'HASH' => "",
       'SALT' => "",        
-      'HOST' => "conf-viewer.yoursite.com", 
+      'HOST' => "yoursitename.xyz", 
       'PATH' => "/var/www/www-conf-viewer",
       'NGINX_CONF_PATH' => "/etc/nginx/nginx.conf",
       'NGINX_SERVER_CONF_PATH' => "/etc/nginx/conf.d/yoursite.com.conf",       
