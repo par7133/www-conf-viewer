@@ -338,8 +338,8 @@
      
       <tr>
          <td colspan="3" style="width:100%;padding:8px;padding-top:12px;border-top: 1px dotted gray;">
-               <div style="float:left;font-weight:900;font-size:12px;">This is www-conf-viewer, a 5 Mode software.<br>Copyright 2021, 2024 5 Mode - GPL License<br>Authors: Daniele Bonini</div>
-               <div style="float:right"><a href="https://5mode.com"><img src="/CONFVW_res/5mode.png" style="width:48px;" alt="5 Mode"></a>&nbsp;&nbsp;&nbsp;</div>
+               <div style="float:left;font-weight:900;font-size:12px;">This is www-conf-viewer, a NuMode software.<br>Copyright 2021, 2028 NuMode - GPL License<br>Authors: Daniele Bonini</div>
+               <div style="float:right"><a href="https://numode.eu"><img src="/CONFVW_res/numode.png" style="width:48px;" alt="NuMode"></a>&nbsp;&nbsp;&nbsp;</div>
          </td>
       </tr>  
      
@@ -386,8 +386,8 @@
 
       <tr>
          <td colspan="3" style="width:100%;padding:8px;padding-top:12px;border-top: 1px dotted gray;">
-               <div style="float:left;font-weight:900;font-size:12px;">This is www-conf-viewer, a 5 Mode software.<br>Copyright 2021, 2024 5 Mode - GPL License<br>Authors: Daniele Bonini</div>
-               <div style="float:right"><a href="https://5mode.com"><img src="/CONFVW_res/5mode.png" style="width:48px;" alt="5 Mode"></a>&nbsp;&nbsp;&nbsp;</div>
+               <div style="float:left;font-weight:900;font-size:12px;">This is www-conf-viewer, a NuMode software.<br>Copyright 2021, 2028 NuMode - GPL License<br>Authors: Daniele Bonini</div>
+               <div style="float:right"><a href="https://numode.eu"><img src="/CONFVW_res/numode.png" style="width:48px;" alt="NuMode"></a>&nbsp;&nbsp;&nbsp;</div>
          </td>
       </tr>  
      
