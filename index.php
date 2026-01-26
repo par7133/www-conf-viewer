@@ -81,9 +81,9 @@
   <link rel="shortcut icon" href="/favicon.ico" />
 
   <meta name="description" content="Welcome to www-conf-viewer! Everyone its web config."/>
-  <meta name="keywords" content="www-conf-viewer,web,configuration,viewer,on,premise,solution"/>
+  <meta name="keywords" content="www-conf-viewer,web,configuration,viewer,on,premise,solution,NuMode"/>
   <meta name="robots" content="index,follow"/>
-  <meta name="author" content="5 Mode"/>
+  <meta name="author" content="NuMode"/>
   
   <script src="/CONFVW_js/jquery-3.6.0.min.js" type="text/javascript"></script>
   <script src="/CONFVW_js/sha.js" type="text/javascript"></script>
@@ -96,7 +96,7 @@
   <body style="background:#dadada no-repeat; background-size: cover; background-attachment: fixed; background-position: center;">
 
   <div class="header" style="margin-top:18px;margin-bottom:18px;">
-        <a href="http://www-conf-viewer.5mode-foss.eu" target="_self" style="color:#000000; text-decoration: none;">&nbsp;<img src="/CONFVW_res/logo.png" align="middle" style="position:relative;top:-5px;width:22px;">&nbsp;www-conf-viewer</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/par7133/www-conf-viewer" style="color:#000000;"><span style="color:#119fe2">on</span> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:code@gaox.io" style="color:#000000;"><span style="color:#119fe2">for</span> feedback</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+39-378-0812391" style="font-size:13px;background-color:lightcyan;border:2px solid lightcyan;color:#000000;height:27px;text-decoration:none;">&nbsp;&nbsp;get support&nbsp;&nbsp;</a>
+        <a href="http://www-conf-viewer.numode-foss.eu" target="_self" style="color:#000000; text-decoration: none;">&nbsp;<img src="/CONFVW_res/logo.png" align="middle" style="position:relative;top:-5px;width:22px;">&nbsp;www-conf-viewer</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/par7133/www-conf-viewer" style="color:#000000;"><span style="color:#119fe2">on</span> github</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:code@gaox.io" style="color:#000000;"><span style="color:#119fe2">for</span> feedback</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+39-378-0812391" style="font-size:13px;background-color:lightcyan;border:2px solid lightcyan;color:#000000;height:27px;text-decoration:none;">&nbsp;&nbsp;get support&nbsp;&nbsp;</a>
    </div>
   
    <form id="frmUpload" role="form" method="post" action="/" target="_self" enctype="multipart/form-data">  
@@ -438,8 +438,8 @@
 
       <tr>
          <td colspan="3" style="width:100%;padding:8px;padding-top:12px;border-top: 1px dotted gray;">
-               <div style="float:left;font-weight:900;font-size:12px;">This is www-conf-viewer, a 5 Mode software.<br>Copyright 2021, 2024 5 Mode - GPL License<br>Authors: Daniele Bonini</div>
-               <div style="float:right"><a href="https://5mode.com"><img src="/CONFVW_res/5mode.png" style="width:48px;" alt="5 Mode"></a>&nbsp;&nbsp;&nbsp;</div>
+               <div style="float:left;font-weight:900;font-size:12px;">This is www-conf-viewer, a NuMode software.<br>Copyright 2021, 2028 NuMode - GPL License<br>Authors: Daniele Bonini</div>
+               <div style="float:right"><a href="https://numode.eu"><img src="/CONFVW_res/numode.png" style="width:48px;" alt="NuMode"></a>&nbsp;&nbsp;&nbsp;</div>
          </td>
       </tr>  
      
