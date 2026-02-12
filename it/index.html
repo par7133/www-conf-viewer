@@ -91,9 +91,9 @@
 </head>
 <body>
 
-<div id="langhideit">
+<div id="langhideen">
    <br>
-   &nbsp;We have detected that you maybe speak Italian, do you want to be redirected to the italian site? <button onclick="$('#langhideit').hide();">NO</button>&nbsp;<button onclick="window.open('https://www-conf-viewer.numode-foss.eu/it','_self');">OK</button>
+   &nbsp;We have detected that you maybe speak English, do you want to be redirected to the english site? <button onclick="$('#langhideen').hide();">NO</button>&nbsp;<button onclick="window.open('https://www-conf-viewer.numode-foss.eu','_self');">OK</button>
    <br><br>
 </div>
 
@@ -138,20 +138,20 @@
         <span aria-hidden="true">&times;</span>
      </button>
 	
-	   Hello and welcome to www-conf-viewer!<br><br>
-	   
-	   www-conf-viewer is a light and simple software on premise to check your website config.<br><br>
-	   
-	   www-conf-viewer is released under GPLv3 license, it is supplied AS-IS and we do not take any responsibility for its misusage.<br><br>
-	   
-	   First step, use the left side panel password and salt fields to create the hash to insert in the config file. Remember to manually set there also the salt value.<br><br>
-	   
-	   You have to follow some simple instructions for an optimal first setup:<br>
-	   <ol>
-     <li>Keep MAX_SECURITY on and adopt SSL.</li>  
-	   <li>Assign all the path to your configuration files in the config file.</li>
-	   <li>Fill free to add to $NGINX_DIRECTIVES and share with us.</li>
-	   </ol>
+Ciao e benvenuto a www-conf-viewer!<br><br> 
+
+www-conf-viewer è un software on-premise leggero e semplice per verificare la configurazione del tuo sito web.<br><br> 
+
+www-conf-viewer è rilasciato sotto licenza GPLv3, viene fornito AS-IS e non ci assumiamo alcuna responsabilità per il suo uso improprio.<br><br> 
+
+Primo passaggio, utilizzare la password del pannello laterale sinistro e i campi salt per creare l'hash da inserire nel file di configurazione. Ricordati di impostare manualmente lì anche il valore del sale.<br><br> 
+
+Devi seguire alcune semplici istruzioni per una prima configurazione ottimale:<br> 
+<ol> 
+<li>Mantieni MAX_SECURITY attivo e adotta SSL.</li> 
+<li>Assegna tutto il percorso ai tuoi file di configurazione nel file di configurazione.</li> 
+<li>Compila gratuitamente per aggiungere a $NGINX_DIRECTIVES e condividere con noi.</li> 
+</ol>
 	   
 	   <br><br>
 
@@ -215,12 +215,12 @@ window.addEventListener("load", function() {
 </script>  
 
 <script>
-    function isItalian() {
+    function isEnglish() {
       ret = false;
       lang = window.navigator.language;
       lang = lang.toLowerCase();
       //alert(lang);
-      if (lang === "it" || lang === "it-it" || lang === "italian") {
+      if (lang === "en" || lang === "en-us" || lang === "en-gb" || lang === "english") {
         ret = true;
       }
       return ret;
@@ -236,8 +236,8 @@ window.addEventListener("load", function() {
       return ret;
     }
 
-    if (isItalian()) {
-      $("#langhideit").show();
+    if (isEnglish()) {
+      $("#langhideen").show();
     }
 
     if (isChinese()) {

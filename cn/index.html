@@ -91,15 +91,15 @@
 </head>
 <body>
 
-<div id="langhideit">
+<div id="langhideen">
    <br>
-   &nbsp;We have detected that you maybe speak Italian, do you want to be redirected to the italian site? <button onclick="$('#langhideit').hide();">NO</button>&nbsp;<button onclick="window.open('https://www-conf-viewer.numode-foss.eu/it','_self');">OK</button>
+   &nbsp;We have detected that you maybe speak English, do you want to be redirected to the english site? <button onclick="$('#langhideen').hide();">NO</button>&nbsp;<button onclick="window.open('https://homomm.numode-foss.eu','_self');">OK</button>
    <br><br>
 </div>
 
-<div id="langhidecn">
+<div id="langhideit">
    <br>
-   &nbsp;We have detected that you maybe speak Chinese, do you want to be redirected to the chinese site? <button onclick="$('#langhidecn').hide();">NO</button>&nbsp;<button onclick="window.open('https://www-conf-viewer.numode-foss.eu/cn','_self');">OK</button>
+   &nbsp;We have detected that you maybe speak Italian, do you want to be redirected to the italian site? <button onclick="$('#langhideit').hide();">NO</button>&nbsp;<button onclick="window.open('https://homomm.numode-foss.eu/it','_self');">OK</button>
    <br><br>
 </div>
 
@@ -138,20 +138,20 @@
         <span aria-hidden="true">&times;</span>
      </button>
 	
-	   Hello and welcome to www-conf-viewer!<br><br>
-	   
-	   www-conf-viewer is a light and simple software on premise to check your website config.<br><br>
-	   
-	   www-conf-viewer is released under GPLv3 license, it is supplied AS-IS and we do not take any responsibility for its misusage.<br><br>
-	   
-	   First step, use the left side panel password and salt fields to create the hash to insert in the config file. Remember to manually set there also the salt value.<br><br>
-	   
-	   You have to follow some simple instructions for an optimal first setup:<br>
-	   <ol>
-     <li>Keep MAX_SECURITY on and adopt SSL.</li>  
-	   <li>Assign all the path to your configuration files in the config file.</li>
-	   <li>Fill free to add to $NGINX_DIRECTIVES and share with us.</li>
-	   </ol>
+您好，欢迎来到 www-conf-viewer！<br><br>
+
+ www-conf-viewer 是一个轻量且简单的软件，用于检查您的网站配置。<br><br>
+
+ www-conf-viewer 根据 GPLv3 许可证发布，按原样提供，我们对其误用不承担任何责任。<br><br>
+
+ 第一步，使用左侧面板密码和盐字段创建要插入配置文件中的哈希值。请记住手动设置盐值。<br><br>
+
+ 您必须遵循一些简单的说明才能获得最佳的首次设置：<br>
+ <ol>
+ <li>保持 MAX_SECURITY 开启并采用 SSL。</li>
+ <li>在配置文件中指定配置文件的所有路径。</li>
+ <li>免费填写以添加到 $NGINX_DIRECTIVES 并与我们分享。</li>
+ </ol>
 	   
 	   <br><br>
 
@@ -226,11 +226,11 @@ window.addEventListener("load", function() {
       return ret;
     }
 
-    function isChinese() {
+    function isEnglish() {
       ret = false;
       lang = window.navigator.language;
       lang = lang.toLowerCase();
-      if (lang === "cn" || lang === "zh-cn" || lang === "chinese" || lang === "chinese simplified" || lang === "mandarin") {
+      if (lang === "en" || lang === "en-us" || lang === "en-gb" || lang === "english") {
         ret = true;
       }
       return ret;
@@ -240,8 +240,8 @@ window.addEventListener("load", function() {
       $("#langhideit").show();
     }
 
-    if (isChinese()) {
-      $("#langhidecn").show();
+    if (isEnglish()) {
+      $("#langhideen").show();
     }
 </script>
 
